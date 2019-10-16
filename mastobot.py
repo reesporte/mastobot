@@ -24,7 +24,7 @@ class mastobot(object):
 
     """
 
-    def __init__(self, api):
+    def __init__(self, api=None):
         super(mastobot, self).__init__()
         self.api = api
         self.datetimeimported = False
