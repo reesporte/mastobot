@@ -3,23 +3,23 @@ from mastodon import Mastodon
 
 class mastobot(object):
     """
-    making simple bots on mastodon even easier!!
+    making simple bots on mastodon even easier
 
     example use:
 
-    # create bot instance!
+    # create bot instance
     bot = mastobot()
 
     # login using config file
     bot.login()
 
-    # create text output!
+    # create text output
     output = new_output()
 
     # post that output
     bot.text_post(output)
 
-    # post some media!
+    # post some media
     bot.media_toot("file/path/to/media")
 
     """
