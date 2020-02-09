@@ -8,7 +8,7 @@ class mastobot(object):
     example use:
 
     # create bot instance
-    bot = mastobot()
+    bot = mastobot.mastobot()
 
     # login using config file
     bot.login()
