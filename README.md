@@ -8,7 +8,7 @@ not life-changing, but it helps me get a bot out fast
 import mastobot
 
 # create bot instance
-bot = mastobot()
+bot = mastobot.mastobot()
 
 # login using config file, assuming you're making a bot on botsin.space,
 # otherwise specify url as a string
